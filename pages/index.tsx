@@ -14,8 +14,7 @@ const Home: NextPage = () => {
 	//Fetch result from strapi
 	const [result] = useQuery({ query: PRODUCT_QUERY });
 	const { data, fetching, error } = result;
-	if (fetching) return <p>Loading...</p>;
-	if (error) return <p>Oh no... {error.message}</p>;
+	if (error) return <p>Oh no... </p>;
 	if (fetching) return <p>Loading...</p>;
 	const products = data.products.data;
 

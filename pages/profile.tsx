@@ -29,7 +29,7 @@ export default function Profile(props: {
 	orders: { id: string; amount: number; receipt_email: string }[];
 }) {
 	const route = useRouter();
-	console.log(props.orders);
+
 	return (
 		props.user && (
 			<div>

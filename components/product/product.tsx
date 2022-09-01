@@ -7,8 +7,7 @@ import Link from "next/link";
 
 const Product = (props: placeProps) => {
 	//Extract the info from props
-	const { title, description, price, quantity, slug, image } =
-		props.data.attributes;
+	const { title, price, slug, image } = props.data.attributes;
 	return (
 		<ProductStyle>
 			<div>

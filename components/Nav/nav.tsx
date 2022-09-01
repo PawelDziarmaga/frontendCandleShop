@@ -16,7 +16,7 @@ const { AnimatePresence, motion } = require("framer-motion");
 
 const Nav = () => {
 	const contextItems = useStateContext();
-	const { user, error, isLoading } = useUser();
+
 	return (
 		<NavigationStyle>
 			<Link href={"/"}>Styled.</Link>
