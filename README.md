@@ -10,6 +10,8 @@
 
 ## Link to application
 
+https://sleepy-mesa-90931.herokuapp.com/
+
 ## General info
 
 Page for a candle shop.

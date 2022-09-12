@@ -6,7 +6,6 @@ import { useQuery } from "urql";
 import { PRODUCT_QUERY } from "../lib/query";
 //import components
 import Product from "../components/product/product";
-
 //Import styled components
 import { GaleryStyle } from "../styles/galery.style";
 
